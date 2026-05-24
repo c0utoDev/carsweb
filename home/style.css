@@ -27,7 +27,11 @@ div.title {
     font-size: 17px;
     display: flex;
     justify-content: center;
-    color: rgb(255, 255, 255);
+    background: -webkit-linear-gradient(bottom, #ffffff, #5d5d5d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
 }
 
 .conteiner {
@@ -129,4 +133,39 @@ a:hover {
 a:active {
     transform: scale(0.98);
     background-color: white
+}
+
+div.titleB {
+    display: flex;
+    justify-content: center;
+    background: -webkit-linear-gradient(bottom, #615020, #dfc51d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+div.bmw {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.bmw img {
+    height: 600px;
+    width: auto;
+
+}
+
+div.logoBmw {
+    display: flex;
+    justify-content: center;
+}
+
+.logoBmw img {
+    width: 5%;
+    height: 20vh;
+    object-fit: contain;
+    animation: girar-infinito 30s linear infinite
 }
