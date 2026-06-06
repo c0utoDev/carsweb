@@ -1,5 +1,5 @@
 
-const comprar = document.getElementById("comprar")
+let comprar = document.getElementById("comprar")
 if (comprar) {
     comprar.onclick = function comprar() {
         alert("Comprado!");

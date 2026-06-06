@@ -199,3 +199,39 @@ div.logoBmw {
     transform: scale(1.15);
     background-color: #79be81;
 }
+
+div.titleC {
+    display: flex;
+    justify-content: center;
+    background: -webkit-linear-gradient(bottom, #ff0000, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+div.logoCivic {
+    display: flex;
+    justify-content: center;
+
+}
+
+.logoCivic img {
+    height: 10vh;
+    width: 80px;
+    animation: girar-infinito 30s linear infinite;
+    object-fit: contain;
+}
+
+.Civic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 30vh;
+}
+
+.Civic img {
+    height: 700px;
+    width: 700px;
+}
